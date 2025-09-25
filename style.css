@@ -88,3 +88,34 @@ footer {
     padding: 15px 0;
   }
 }
+
+/* ========================= */
+/* DARK MODE                 */
+/* ========================= */
+body.dark-mode {
+  background-color: #121212;
+  color: #f8f9fa;
+}
+
+body.dark-mode .navbar {
+  background-color: #1f1f1f !important;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #f8f9fa;
+}
+
+body.dark-mode footer {
+  background-color: #000;
+  color: #aaa;
+}
+
+body.dark-mode .btn-custom {
+  background-color: #bb86fc;
+  color: #121212;
+}
+
+body.dark-mode .btn-custom:hover {
+  background-color: #9a67ea;
+}
